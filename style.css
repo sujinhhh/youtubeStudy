@@ -3,13 +3,13 @@
 :root {
   /* Color */
   --white-color: #fff;
-  --black-color: #140a00;
+  --black-color: #252525;
   --blue-color: #045fd4;
   --red-color: red;
   --grey-dark-color: #909090;
   --grey-light-color: #e0e0e0;
   /* Size */
-  --padding: 12px;
+  --padding: 15px;
   --avatar-size: 40px;
   /* Font Size */
   --font-xlarge: 24px;
@@ -45,20 +45,46 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: var(--padding);
   background: var(--black-color);
   color: var(--white-color);
 }
 
-header .logo {
-  font-family: "Roboto", sans-serif;
-  font-size: var(--font-xlarge);
-  font-weight: 700;
-  padding-right: 20px;
+.logo {
+  position: relative;
 }
 
-header .logo i {
-  color: var(--red-color);
+.logo img {
+  width: 100px;
+  margin-left: 50px;
+}
+.bar {
+  background-color: var(--white-color);
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 25px;
+  height: 3px;
+  transition: all 0.5s ease-in-out;
+}
+.bar::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  width: 25px;
+  height: 3px;
+  background-color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+}
+.bar::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 25px;
+  height: 3px;
+  background-color: var(--white-color);
+  transition: all 0.5s ease-in-out;
 }
 
 header .icons .fa-search {
