@@ -53,6 +53,7 @@ header {
 
 .logo {
   position: relative;
+  cursor: pointer;
 }
 
 .logo img {
@@ -60,6 +61,7 @@ header {
   margin-left: 50px;
 }
 .bar {
+  cursor: pointer;
   background-color: var(--white-color);
   position: absolute;
   left: 0;
