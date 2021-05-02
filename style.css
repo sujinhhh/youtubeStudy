@@ -130,7 +130,7 @@ body .info {
   margin-right: var(--padding);
 }
 
-.info .metadata .titleAndButton .title .clamp {
+. .metadata .titleAndButton .title .clamp {
   /*  글자 디스플레이가 두줄 이상 안되게 */
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -147,6 +147,10 @@ body .info {
 .info .metadata .titleAndButton .moreBnt .clicked {
   /* 모양 위치가 바뀌는것 */
   transform: rotate(180deg);
+}
+
+.info .name {
+  padding-top: var(--padding);
 }
 
 .info .views {
