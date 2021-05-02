@@ -3,6 +3,7 @@
 :root {
   /* Color */
   --white-color: #fff;
+  --dark-black-color: #000000;
   --black-color: #252525;
   --blue-color: #045fd4;
   --red-color: red;
@@ -89,15 +90,14 @@ header {
   transition: all 0.5s ease-in-out;
 }
 
-header .icons .fa-search {
-  margin-right: var(--padding);
+.icons img {
+  height: 40px;
 }
-
 .player {
   /* position: sticky; */
   top: 0;
   text-align: center;
-  background: var(--black-color);
+  background: var(--dark-black-color);
 }
 
 .player video {
