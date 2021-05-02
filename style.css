@@ -268,7 +268,7 @@ body .info {
 .upNext .item .info .name,
 .upNext .item .info .views {
   font-size: var(--font-small);
-  color: var(--grey-dark-color);
+  color: indianred;
 }
 
 /* .infoAndUpNext {
