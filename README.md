@@ -17,4 +17,4 @@
 [Go to the Page](https://sujinhhh.github.io/youtubeStudy/)
 
 
-> 고통과 수치는 널 강하게 해줄거야
+> 🐹
