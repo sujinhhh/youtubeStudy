@@ -10,7 +10,7 @@
    * responsible
 
 
-<img src="https://sujinhhh.github.io/youtubeStudy/screenshot.png" >
+<img src="https://sujinhhh.github.io/youtubeStudy/screenshot2.png" >
   
 
 ➡️
